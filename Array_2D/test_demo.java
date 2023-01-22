@@ -5,9 +5,14 @@ public class test_demo
     public static void main(String[] args)
     {
         demo obj = new demo();
-        int a[][] = {{1,2,3}, {4,5,6}, {7,8,9}};
+        
+//        int a[][] = {{1,2,3}, {4,5,6}, {7,8,9}};
 //        int rect[][] = {{1,2,3,4} ,{5,6,7,8}};
 //        int snake[][] = { {1,2,3,4},{5,6,7,8},{9,10,11,12} };
+//        int unsorted[][] = {{7,9,2},{1,6,8},{3,5,4}};
+//        int matrix[][] = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+//        int centre[][] = {{1,1,1,1,1},{1,9,9,9,1},{1,8,8,8,1},{1,1,1,1,1}};
+//        int diagonol[][] = {{9,9,9},{8,8,8},{7,7,7}};
          
 //        int ans = obj.sumOfD(a);
 //        System.out.println(ans);
@@ -36,6 +41,33 @@ public class test_demo
 //        obj.horizontalWave(snake);
 //        obj.verticalalWave(snake);
 
-        obj.print(a);
+//        int b[][] = obj.rotate180(a);
+
+//        obj.sortMatrix(unsorted);
+//        obj.sortEachRow(unsorted);
+//        obj.sortEachColumn(a);
+        
+//        obj.print(centre);
+//        
+//        System.out.println("--- SORT CENTRE ---");
+//        
+//        obj.sortCentre(centre);
+//        obj.print(centre);
+
+//        obj.print(diagonol);
+//        System.out.println("--- SORT DIAGONOL ---");
+//        obj.sortDiagonol(diagonol);
+//        obj.print(diagonol);
+
+//        obj.print(a);
+
+//        int n = 7;
+//        int b[][] = obj.spiralMatrix(n);
+//        obj.print(b);
+        
+//        obj.spiralOrder(a);
+
+        int n=5;
+        obj.pascalTriangle(n);
     }
 }

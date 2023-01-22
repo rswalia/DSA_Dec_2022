@@ -24,7 +24,7 @@ public class Q4_sum_of_each_column
 //            {
 //                sum = sum + a[i][j];
 //            }
-//            System.out.println("Sum of Column "+ i +" is "+ sum);
+//            System.out.println("Sum of Column "+ j +" is "+ sum);
 //        }
     }
 }
