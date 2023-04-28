@@ -7,7 +7,7 @@ public class Q20_Pascal_triangle_LeetCode
     public static void main(String[] args) 
     {
         int n=5;
-        generate(n);
+        System.out.println(generate(n));
     }
     
     static List<List<Integer>> generate(int n)

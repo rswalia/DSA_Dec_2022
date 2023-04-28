@@ -2,7 +2,8 @@ package Collection_Classes;
 
 import java.util.*;
 
-public class Simple_Queue {
+public class Simple_Queue 
+{
     public static void main(String[] args) 
     {
         ArrayDeque<Integer> q = new ArrayDeque<>();
